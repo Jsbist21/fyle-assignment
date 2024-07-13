@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+
+    <div class="header container row">
+      <div class="col mt-5">
+        <p class="fs-3 fw-semibold" style="color: red">AWARD WINNING</p>
+        <h1 style="font-size: 80px">DIGITAL AMRKETING AGENCY</h1>
+        <p class="fs-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          aperiam ea eum perspiciatis quae voluptates suscipit pariatur vitae,
+          impedit quaerat eveniet soluta, cum delectus minima architecto quia.
+        </p>
+        <button id="open-popup" class="fs-4">Contact Us</button>
+      </div>
+      <div class="col">
+        <img
+          class="hero-img img-fluid rounded"
+          src="./photos/hero.png"
+          alt="hero.png"
+        />
+      </div>
+    </div>
+
+    <!-- Popup form -->
+
+    <div id="popup-form" class="popup-form">
+      <div class="popup-content">
+        <span id="close-popup" class="close">&times;</span>
+        <h2 class="fs-4 fw-semibold">Talk to us</h2>
+        <form
+          id="contact-form"
+          action="https://getform.io/f/avreroka"
+          method="POST"
+        >
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Work email*"
+              required
+            />
+          </div>
+          <div class="mb-3 d-flex">
+            <div>
+              <input
+                type="text"
+                class="form-control me-2"
+                id="first-name"
+                name="first-name"
+                placeholder="First name*"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                class="form-control ms-2"
+                id="last-name"
+                name="last-name"
+                placeholder="Last name*"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-check mb-3">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="consent"
+              name="consent"
+              required
+            />
+            <label class="form-check-label" for="consent">
+              I agree to Fyle's terms and conditions, and provide consent to
+              send me communication.
+            </label>
+          </div>
+          <button type="submit" class="submit-contact-btn">Contact Us</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Service Section -->
+
+    <div class="services container">
+      <div class="row">
+        <div class="col">
+          <p class="fs-3 fw-semibold" style="color: red">WHAT WE DO</p>
+          <p class="fw-bold" style="font-size: 60px">
+            SERVICES PROVIDE FOR YOU
+          </p>
+        </div>
+        <div class="col">
+          <p class="fs-5" style="margin-top: 70px">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis,
+            nemo quo. Nemo sapiente repudiandae libero illo iusto provident
+            debitis velit neque, placeat corrupti exercitationem tenetur omnis
+            enim ex consequatur error, deserunt fugiat, illum molestiae facere.
+          </p>
+        </div>
+      </div>
+
+      <div class="slider">
+        <div class="slides">
+          <div class="slide">
+            <img src="/photos/1-2.png" alt="Image 1" />
+            <div class="hover-effect">
+              <img src="/photos/icon.png" alt="icon" style="width: auto" />
+              <h3>WEB DEVELOPMENT</h3>
+              <p>
+                Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                Pellentesque.
+              </p>
+              <button>READ MORE</button>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="/photos/2-2.png" alt="Image 2" />
+            <div class="hover-effect">
+              <img src="/photos/icon.png" alt="icon" style="width: auto" />
+              <h3>WEB DEVELOPMENT</h3>
+              <p>
+                Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                Pellentesque.
+              </p>
+              <button>READ MORE</button>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="/photos/3-2.png" alt="Image 3" />
+            <div class="hover-effect">
+              <img src="/photos/icon.png" alt="icon" style="width: auto" />
+              <h3>WEB DEVELOPMENT</h3>
+              <p>
+                Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                Pellentesque.
+              </p>
+              <button>READ MORE</button>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="/photos/3-2.png" alt="Image 3" />
+            <div class="hover-effect">
+              <img src="/photos/icon.png" alt="icon" style="width: auto" />
+              <h3>WEB DEVELOPMENT</h3>
+              <p>
+                Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                Pellentesque.
+              </p>
+              <button>READ MORE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dot-container">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+
+    <!-- Why choose us section -->
+
+    <div class="whychooseus container">
+      <div class="row">
+        <p class="text-center fs-4 fw-semibold mb-3" style="color: red">
+          WHY CHOOSE US
+        </p>
+      </div>
+      <div class="row">
+        <p class="text-center fs-2 fw-bold mb-5">WHY WE ARE BEST</p>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="/photos/1-1@2x.png" alt="" />
+          <h4 class="fw-bold">Clarified Vision & Target</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus,
+            id alias!
+          </p>
+        </div>
+        <div class="col">
+          <img src="/photos/2-1@2x.png" alt="" />
+          <h4 class="fw-bold">High Performance</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus,
+            id alias!
+          </p>
+        </div>
+        <div class="col">
+          <img src="/photos/3-1@2x.png" alt="" />
+          <h4 class="fw-bold">Maintain Security</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus,
+            id alias!
+          </p>
+        </div>
+        <div class="col">
+          <img src="/photos/4@2x.png" alt="" />
+          <h4 class="fw-bold">Better Strategy & Quality</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus,
+            id alias!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Section -->
+
+    <div class="project-section container mt-5">
+      <div class="row">
+        <p class="text-center fs-4 fw-semibold" style="color: red">
+          OUR PROJECT
+        </p>
+      </div>
+      <div class="row">
+        <p class="text-center fs-2 fw-bold mb-5">WHY WE ARE BEST</p>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <img
+            id="project-image"
+            class="img-fluid rounded"
+            src="./photos/image@2x.png"
+            alt="project image"
+          />
+        </div>
+        <div class="col-md-4">
+          <div class="project-content" data-image="/photos/image@2x.png">
+            <h3>Genderless Kei - Japan's Hot</h3>
+            <p>
+              Set to launch on the manufacturer's new A330neo aircraft in 2017,
+              it's offering lots of...
+            </p>
+          </div>
+          <div
+            class="project-content"
+            data-image="/photos/architecture-1869398_1280.jpg"
+          >
+            <h3>Better Strategy & Quality</h3>
+            <p>
+              Set to launch on the manufacturer's new A330neo aircraft in 2017,
+              it's offering lots of...
+            </p>
+          </div>
+          <div
+            class="project-content"
+            data-image="/photos/street-4942809_1280.jpg"
+          >
+            <h3>Genderless Kei - Japan's Hot</h3>
+            <p>
+              Set to launch on the manufacturer's new A330neo aircraft in 2017,
+              it's offering lots of...
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- company Growth section -->
+
+    <div class="company-growth-section container">
+      <div class="row">
+        <p class="text-center fs-4 fw-semibold" style="color: red">
+          EXPERTS GROWTH
+        </p>
+      </div>
+      <div class="row">
+        <p class="text-center fs-2 fw-bold">OUR COMPANY GROWTH</p>
+      </div>
+
+      <div class="row text-center mt-2">
+        <div class="growth-box col">
+          <img src="/photos/heart (2)@2x.png" alt="heart" />
+          <p class="fw-semibold fs-1">199+</p>
+          <p>Satisfied Customers</p>
+        </div>
+        <div class="growth-box col">
+          <img src="/photos/clock (3)@2x.png" alt="clock" />
+          <p class="fw-semibold fs-1">1591+</p>
+          <p>Days Of Operation</p>
+        </div>
+        <div class="growth-box col">
+          <img src="/photos/Path 4402@2x.png" alt="complete" />
+          <p class="fw-semibold fs-1">283+</p>
+          <p>Complete Project</p>
+        </div>
+        <div class="growth-box col">
+          <img src="/photos/Path 4406@2x.png" alt="award" />
+          <p class="fw-semibold fs-1">75+</p>
+          <p>Win Awards</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Client Feedback -->
+
+    <div class="feedback">
+      <p class="fs-4 fw-semibold text-center" style="color: red">
+        CLIENT'S FEEDBACK
+      </p>
+      <p class="fs-1 fw-bold text-center">PEOPLE SAY'S ABOUT US !</p>
+      <p class="fs-5 feedback-text-bg">
+        Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is
+        reproduced below for those interested. Sections Bonorum at Malorum
+        Original.
+      </p>
+      <p style="padding-left: 1.5rem">
+        <span class="fs-5 fw-bold" style="color: red">JANNAT TUMPA</span>
+        <span>- COO, AMERIMAR ENTERPRISES, INC.</span>
+      </p>
+    </div>
+
+    <!-- footer section -->
+
+    <div class="footer">
+      <img src="/photos/Group 500@2x.png" alt="group" />
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
