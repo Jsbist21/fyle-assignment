@@ -24,7 +24,7 @@ button {
 
 .hero-img {
   height: 600px;
-  margin-left: 5rem;
+  margin-left: 7.5rem;
 }
 
 .whychooseus {
@@ -157,7 +157,8 @@ body {
 .hover-effect p {
   margin-bottom: 20px;
 }
-.hover-effect button {
+.hover-effect a {
+  text-decoration: none;
   background: white;
   color: #ff4757;
   border: none;
